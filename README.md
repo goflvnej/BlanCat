@@ -1,17 +1,17 @@
 📌 개인 프로젝트 소개
 BlanCat은 영화, 드라마, 만화 게시판에서 다양한 콘텐츠 리뷰를 공유하고 소통할 수 있는 커뮤니티 웹사이트입니다.
-<br>
-<br>
+<br />
+<br />
 🏠 웹사이트 링크
 https://blancat.netlify.app/
-<br>
-<br>
+<br />
+<br />
 💻 사용된 기술
 HTML5
 CSS3
 Bootstrap v5.3.3
-<br>
-<br>
+<br />
+<br />
 📑 페이지 구성
 ```
 BlanCat/
