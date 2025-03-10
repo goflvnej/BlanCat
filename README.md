@@ -10,6 +10,8 @@ CSS3
 Bootstrap v5.3.3
 
 📑 페이지 구성
+```
+BlanCat/
 📁 image
   └─ 로고, 포스터 등 이미지 파일
 ├─ index.html (메인 페이지)
@@ -18,3 +20,4 @@ Bootstrap v5.3.3
 ├─ email-verification (이메일 확인 화면)
 ├─ reset-password.html (비밀번호 재설정 화면)
 └─ delete-account.html (계정 삭제 화면)
+```
