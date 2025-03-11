@@ -329,7 +329,7 @@
       padding: 6px 15px;
       font-weight: 600;
       background-color: var(--point-color);
-      color: var(white);
+      color: white;
       border: 2px solid var(--point-color);
       transition: background-color 0.2s, border 0.2s;
       white-space: nowrap;
@@ -1165,14 +1165,6 @@
         document.body.classList.remove('light-mode');
       }
     })();
-
-    // 페이지 로딩 후 테마 적용
-    const currentTheme = localStorage.getItem('theme');
-    if (currentTheme === 'light') {
-      document.body.classList.add('light-mode');
-    } else {
-      document.body.classList.remove('light-mode');
-    };
 
     // 테마 토글 버튼
     const themeToggleBtn = document.getElementById('themeToggleBtn');

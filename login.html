@@ -672,14 +672,6 @@
             }
         })();
 
-        // 페이지 로딩 후 테마 적용
-        const currentTheme = localStorage.getItem('theme');
-        if (currentTheme === 'light') {
-            document.body.classList.add('light-mode');
-        } else {
-            document.body.classList.remove('light-mode');
-        };
-
         // 테마 토글 버튼
         const themeToggleBtn = document.getElementById('themeToggleBtn');
         themeToggleBtn.addEventListener('click', (e) => {

@@ -615,8 +615,8 @@
       }
     });
 
-        // 다크/라이트 모드 즉시 적용 (깜빡임 방지)
-        (function () {
+    // 다크/라이트 모드 즉시 적용 (깜빡임 방지)
+    (function () {
       const theme = localStorage.getItem('theme');
       if (theme === 'light') {
         document.body.classList.add('light-mode');
@@ -647,14 +647,6 @@
         document.body.classList.remove('light-mode');
       }
     })();
-
-    // 페이지 로딩 후 테마 적용
-    const currentTheme = localStorage.getItem('theme');
-    if (currentTheme === 'light') {
-      document.body.classList.add('light-mode');
-    } else {
-      document.body.classList.remove('light-mode');
-    };
 
     // 테마 토글 버튼
     const themeToggleBtn = document.getElementById('themeToggleBtn');
