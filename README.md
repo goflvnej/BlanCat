@@ -7,6 +7,9 @@ BlanCat은 영화, 드라마, 만화 게시판에서 다양한 콘텐츠 리뷰�
 
 https://blancat.netlify.app/
 
+
+https://www.notion.so/BlanCat-1b357c4fd7fe8066ae06f97809394c91
+
 <br/>
 💻 사용된 기술
 
